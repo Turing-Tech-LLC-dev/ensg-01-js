@@ -116,3 +116,39 @@ const value2 = 100;
 const value3 = "Hello";
 
 console.log(value1 || value2 && value3);
+
+
+// Comparison Operators
+
+// Greater than (>)
+console.log("Comparison operators");
+console.log(10 > 15);
+
+//  Less than (<)
+console.log(15 < 100);
+
+// Greater than or equal to (>=)
+console.log(18 >= 10);
+
+// Less than or equal to (<=)
+console.log(5 <= 2);
+
+// Equality operator (==)
+console.log("Equality operator");
+console.log((3 * 4) == "12");
+console.log(12 == 90);
+console.log("Hello" == "Hello");
+
+// Strict equality operator (===)
+console.log("Strict equality operator");
+console.log(12 === "12");
+
+// Inequality (!=)
+console.log("Inequality");
+console.log(2 != 5);
+console.log(2 != "2");
+
+// Strict Inequality (!==)
+console.log("Strict inequality");
+console.log(35 !== 40);
+console.log(2 !== "2");
