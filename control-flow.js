@@ -190,3 +190,82 @@ switch (true) {
     default:
         console.log("Not a valid grade");
 }
+
+
+// Ternary operators
+// Example 1
+const yearsOfExperience = 3;
+const salary = yearsOfExperience > 2 ? "NGN800,000" : "NGN400,000";
+console.log(salary);
+
+// Comparison with nullish coalescing (??)
+const productPrice = null;
+console.log(productPrice ?? "No product price is specified");
+
+// Example 2 (Nested)
+const trafficColor = "purple";
+const printTrafficAction = 
+    trafficColor === "green" ? "Go" : 
+    trafficColor === "yellow" ? "Get Ready" : 
+    trafficColor === "red" ? "Stop" : "Not a valid traffic color";
+console.log(printTrafficAction);
+
+/* 
+============= Class Excercise ============
+
+- Create two variables named num1 and num2 and assign them any numbers.
+- Calculate the sum of the two numbers and store it in a variable called sum.
+
+- Use a ternary operator to check if the sum is even or odd.
+
+Display the following in the console:
+- The value of num1
+- The value of num2
+- The sum
+- Whether the sum is Even or Odd
+
+*/
+
+const num1 = 10;
+const num2 = 33;
+const sum = num1 + num2;
+console.log(num1);
+console.log(num2);
+console.log(sum);
+console.log(sum % 2);
+console.log(sum % 2 === 0 ? "Even" : "Odd");
+
+
+// Loops
+
+// For Loop
+// print your name 50 times
+
+// initialization, condition, increment
+for (let count = 1; count <= 50; count++) {
+    // count++ means count = count + 1
+    console.log(`${count}: Chiemezie`);
+}
+
+console.log("print even numbers");
+for (let i = 0; i <= 10; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+}
+
+for (let i = 70; i >= 0; i--) {
+    // i-- means i = i - 1
+    console.log(i);
+}
+
+/* 
+Print numbers from 1 to 20.
+Print numbers from 20 down to 1.
+Print all even numbers between 1 and 50.
+Print all odd numbers between 1 and 50.
+Print your name 10 times.
+Calculate the sum of numbers from 1 to 100.
+Print the multiplication table of 7.
+*/
+
