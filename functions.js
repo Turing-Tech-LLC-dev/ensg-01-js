@@ -154,8 +154,8 @@ console.log(calculateBMI(90, 1.7));
     const greetUser = (name) => console.log(`Hello ${name}`);
     greetUser("John");
 
-    const sayHello = () => console.log("Hello world");
-    sayHello();
+    // const sayHello = () => console.log("Hello world");
+    // sayHello();
 
     const calculateBMI = (weight, height) => weight / (height ** 2);
     console.log(calculateBMI(85, 1.5));
@@ -251,3 +251,4 @@ console.log(perimeterOfRectangle(15));
 
     console.log(doMaths(addTwoNumbers, 80, 70, divide));
 }
+
