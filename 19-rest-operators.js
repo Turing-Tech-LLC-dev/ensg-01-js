@@ -17,3 +17,50 @@ function doMultiply(baseNumber, ...nums) {
 }
 
 doMultiply(5, 1, 2, 3, 4, 5);
+
+
+function sum(firstNumber, ...numbers) {
+    let total = 0;
+    for (let number of numbers) {
+        total += number;
+    }
+
+    console.log(firstNumber);
+    console.log(total);
+}
+
+sum(1, 2, 3, 4, 5);
+
+
+// Rest operators with Array destructuring
+const fruits = ["apple", "orange", "banana", "grape", "mango"];
+const [firstFruit, secondFruit, ...restOfFruits] = fruits;
+console.log(firstFruit);
+console.log(secondFruit);
+console.log(restOfFruits);
+
+// Rest operators with Object destructuring
+const staff = {
+    name: "John Doe",
+    age: 25,
+    role: "Backend Engineer",
+    sayRole() {
+        return `${this.name} is working as a ${this.role}`
+    }
+}
+
+console.log(staff.sayRole());
+const {name: staffName, sayRole, ...restOfStaffDetail} = staff;
+console.log(staffName);
+// console.log(sayRole());
+console.log(restOfStaffDetail);
+
+
+const doMaths = {
+    sum(a, b) {
+        return a + b;
+    }
+}
+
+const {sum: addTwoNumbers} = doMaths;
+console.log(addTwoNumbers(2, 3));
