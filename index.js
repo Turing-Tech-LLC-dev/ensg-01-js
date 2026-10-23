@@ -1,10 +1,10 @@
 console.log("Hello World!");
 console.log(5);
 
-alert("My first JavaScript alert");
+// alert("My first JavaScript alert");
 
-prompt("What is your full name?");
+// prompt("What is your full name?");
 
-confirm("I am above 18 years of age");
+// confirm("I am above 18 years of age");
 
-console.log(prompt("What is your name?"));
+// console.log(prompt("What is your name?"));

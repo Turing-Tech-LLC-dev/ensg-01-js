@@ -4,14 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
     
+    <style>
+        .div {
+            font-size: 7rem;
+            color: red;
+            font-weight: 900;
+        }
+    </style>
 </head>
 <body>
 
-    
-    <!-- <script src="./index.js"></script> -->
-    <!-- <script src="./control-flow.js"></script> -->
-    <script src="./24-errorHandling.js"></script>
-     
+    <header>
+        <nav style="color: blue; font-size: 5rem;">
+            This is a Nav Element
+        </nav>
+
+        <div class="div">
+            This is a div
+        </div>
+    </header>
+
+    <div class="test">
+        This is a test
+    </div>
+
+    <!-- Inline JavaScript -->
+    <button
+        style="background-color: blue; color: white; border: none; padding: 0.5rem 2rem; font-size: 4rem; cursor: pointer;"
+        onclick="console.log('Form data submitted successfully')"
+    >
+        Submit Form Data
+    </button>
+
+    <!-- Internal JavaScript -->
+    <script>
+        // alert("Testing internal javascript.");
+    </script>    
 </body>
 </html>
